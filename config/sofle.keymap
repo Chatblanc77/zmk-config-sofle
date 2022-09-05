@@ -15,6 +15,9 @@
 #define RAISE 2
 #define ADJUST 3
 
+&left_encoder { resolution = <1>; };
+&right_encoder { resolution = <1>; };
+
 / {
 
    // Activate ADJUST layer by pressing raise and lower
